@@ -1,7 +1,7 @@
 import React from "react";
 import "./Banner.css";
 
-const Banner = () => {
+const Banner = (props) => {
   const list = [
     {
       image: "https://images.justwatch.com/icon/207360008/s100/icon.webp",
@@ -52,7 +52,7 @@ const Banner = () => {
         <button className="btn btn-warning btn-lg me-1 my-3">
           Watch Movies & Shows
         </button>
-        <button className="btn btn-dark btn-lg ms-1 my-3">See more</button>
+        <button className="btn btn-dark btn-lg ms-1 my-3" onClick={props.onClick}>See more</button>
       </div>
       <h4>Streaming services on JustWatch</h4>
       <div className="platforms">

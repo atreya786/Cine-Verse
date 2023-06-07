@@ -5,7 +5,8 @@
   align-items: center;
   justify-content: center;
   width: 384px;
-  margin: 1.5rem 0.8rem;
+  margin: auto;
+  margin-top: 4rem;
   padding: 1.7rem 1rem;
   background: linear-gradient(180deg,#11181f,rgba(17,24,31,0));
   border-radius: 16px
@@ -31,4 +32,9 @@
 .mainBody h2{
   color: white;
   font-size: 3rem;
+}
+
+footer{
+  background-color: black;
+  color: rgb(167, 167, 167);
 }
