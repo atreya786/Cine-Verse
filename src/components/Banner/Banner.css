@@ -1,0 +1,35 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://www.justwatch.com/appassets/img/home/global-home-bg-comp.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45rem;
+}
+
+h1 {
+  font-size: 4.5rem;
+  color: white;
+  font-weight: 500;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h4{
+  margin-top: 1rem;
+  color: rgb(197, 197, 197);
+}
+
+p {
+  font-size: 1.3rem;
+  color: rgb(202, 202, 202);
+}
+
+.btn{
+    font-size: 1.3rem;
+}
+
+.platforms{
+
+}

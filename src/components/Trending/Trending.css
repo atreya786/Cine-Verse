@@ -1,0 +1,14 @@
+.trending {
+  background-color: black;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+
+.trending img {
+  width: 85%;
+  height: 80%;
+  position: absolute;
+}

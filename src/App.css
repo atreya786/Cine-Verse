@@ -1,0 +1,23 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0.5rem;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+h3 {
+  color: rgb(0, 181, 0);
+}
+
+.nav-link {
+  color: white;
+}
+
+nav h2 {
+  color: #ffc107;
+}
